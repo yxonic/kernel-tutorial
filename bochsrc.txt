@@ -5,7 +5,7 @@ ata0-master: type=cdrom, path=image.iso, status=inserted
 floppya: 1_44=/dev/loop0, status=inserted
 boot: $BXBOOT
 clock: sync=realtime
-cpu: count=1, ips=1000000
+cpu: count=1, ips=20000000
 megs: 32
 mouse: enabled=0
 
